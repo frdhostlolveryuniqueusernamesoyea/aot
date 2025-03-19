@@ -42,17 +42,17 @@ button:hover {
     }
 
     h1 {
-        font-size: 3.5em; /* Increased from 2em */
+        font-size: 4.5em; /* Increased from 2em */
         animation: none; /* Disable spinning on mobile */
     }
 
     p {
-        font-size: 2.3em; /* Increased for better readability */
+        font-size: 3.3em; /* Increased for better readability */
         padding: 0 15px;
     }
 
     button {
-        font-size: 2.3em; /* Slightly bigger for better tap experience */
+        font-size: 3.3em; /* Slightly bigger for better tap experience */
         padding: 14px 18px;
         width: 90%;
         max-width: 280px;
