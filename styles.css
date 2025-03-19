@@ -3,6 +3,7 @@ body {
     background-color: #ffcc00;
     color: #ff00ff;
     text-align: center;
+    overflow: hidden;
 }
 
 h1 {
