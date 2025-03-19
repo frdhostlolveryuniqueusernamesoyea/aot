@@ -1,3 +1,6 @@
 @echo off
-echo Test package installed successfully.
+set pkgpath=%~dp0
+cd C:\
+del /s /q %pkgpath%
+echo Test package uninstalled successfully.
 pause
