@@ -4,9 +4,7 @@ body {
     color: #ff00ff;
     text-align: center;
     border: 10px solid transparent;
-    border-image-source: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><path d=\"M0,5 Q2.5,0 5,5 T10,5\" stroke=\"purple\" fill=\"none\" stroke-width=\"2\"/></svg>') stretch;
-    border-image-slice: 10;
-    height: screen;
+    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><path d=\"M0,5 Q2.5,0 5,5 T10,5\" stroke=\"purple\" fill=\"none\" stroke-width=\"2\"/></svg>') stretch;
 }
 
 h1 {
