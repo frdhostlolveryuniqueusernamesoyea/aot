@@ -4,7 +4,10 @@ body {
     color: #ff00ff;
     text-align: center;
     border: 10px solid transparent;
-    border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><path d=\"M0,5 Q2.5,0 5,5 T10,5\" stroke=\"purple\" fill=\"none\" stroke-width=\"2\"/></svg>') stretch;
+    border-image-source: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="20"><path d="M0,10 Q25,0 50,10 T100,10" stroke="purple" fill="none" stroke-width="2"/></svg>');
+    border-image-slice: 1;
+    border-image-width: 10px;
+    border-image-repeat: stretch;
 }
 
 h1 {
