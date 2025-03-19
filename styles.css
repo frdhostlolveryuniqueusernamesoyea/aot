@@ -32,3 +32,30 @@ button:hover {
     transform: scale(1.2) rotate(10deg);
     background: linear-gradient(45deg, #0000ff, #ff0000);
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2em;
+        animation: none; /* Disable spinning on mobile */
+    }
+
+    p {
+        font-size: 1.1em;
+        padding: 0 15px;
+    }
+
+    button {
+        font-size: 1.2em;
+        padding: 12px 15px;
+        width: 90%;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+}
