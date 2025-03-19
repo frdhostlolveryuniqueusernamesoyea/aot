@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 3px 3px 0 #00ff00;
     animation: spin 3s linear infinite;
 }
