@@ -18,6 +18,13 @@ h1 {
     100% { transform: rotate(360deg); }
 }
 
+.forOhFour {
+    font-size: 3em;
+    text-shadow: 3px 3px 0 #00ff00;
+    animation: spin 1s linear infinite;
+    transform-origin: center;
+}
+
 button {
     background: linear-gradient(45deg, #ff0000, #0000ff);
     color: white;
